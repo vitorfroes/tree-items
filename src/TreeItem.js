@@ -4,7 +4,7 @@ import {
   AccordionSummary,
   Checkbox,
   FormControlLabel,
-  makeStyles
+  makeStyles,
 } from "@material-ui/core";
 import { ExpandMore } from "@material-ui/icons";
 import React, { useState } from "react";
@@ -12,13 +12,13 @@ import React, { useState } from "react";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
-    width: "100%"
+    width: "100%",
   },
   list: {
     width: "100%",
     listStyleType: "none",
-    margin: 0
-  }
+    margin: 0,
+  },
 }));
 
 const TreeItem = ({ item }) => {
@@ -36,7 +36,7 @@ const TreeItem = ({ item }) => {
 
   return (
     <li className={classes.root} key={item.id}>
-      <Accordion style={{ width: "100%" }}>
+      <Accordion style={{ width: "100%", boxShadow: "none" }}>
         <AccordionSummary
           expandIcon={<ExpandMore />}
           aria-controls="panel1a-content"
@@ -58,7 +58,7 @@ const TreeItem = ({ item }) => {
             }
           />
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails style={{ paddingLeft: 0, paddingRight: 0 }}>
           <ul className={classes.list}>
             {item.children &&
               Object.values(item.children).map((child) => (
