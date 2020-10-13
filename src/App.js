@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import Tree from "./Tree";
+import Tree from "./components/Tree";
 
 export default function App() {
   return (
