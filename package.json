@@ -1,10 +1,10 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "Tree Items",
   "keywords": [
-    "react",
-    "starter"
+    "Tree Visualizer",
+    "Items nested"
   ],
   "main": "src/index.js",
   "dependencies": {

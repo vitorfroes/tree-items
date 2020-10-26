@@ -10,9 +10,14 @@ const StyledItem = styled.li`
 `;
 
 const TreeItem = ({ item }) => {
-  const [state, setState] = useState(false);
+  const [state, setState] = useState(
+    () => window.localStorage.getItem(item.id) || false
+  );
 
   const handleChange = (event) => {
+    event.target.checked
+      ? window.localStorage.setItem(item.id, event.target.checked)
+      : window.localStorage.removeItem(item.id);
     setState(event.target.checked);
   };
 
