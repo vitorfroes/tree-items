@@ -56,7 +56,7 @@ const Accordion = ({ title, content }) => {
   return (
     <AccordionSection>
       <AccordionHead className={active} onClick={toggleAccordion}>
-        <p>{title}</p>
+        <div>{title}</div>
         <AccordionIcon className={rotate} width={15} fill={fill} />
       </AccordionHead>
       <AccordionContent

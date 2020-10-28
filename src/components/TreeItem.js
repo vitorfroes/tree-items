@@ -11,7 +11,7 @@ const StyledItem = styled.li`
 
 const TreeItem = ({ item }) => {
   const [state, setState] = useState(
-    () => window.localStorage.getItem(item.id) || false
+    () => Boolean(window.localStorage.getItem(item.id)) || false
   );
 
   const handleChange = (event) => {
@@ -19,6 +19,8 @@ const TreeItem = ({ item }) => {
       ? window.localStorage.setItem(item.id, event.target.checked)
       : window.localStorage.removeItem(item.id);
     setState(event.target.checked);
+
+    console.log("This was changed");
   };
 
   const handleClick = (event) => {
