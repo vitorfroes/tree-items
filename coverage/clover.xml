@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1608558620839" clover="3.2.0">
+  <project timestamp="1608558620839" name="All files">
+    <metrics statements="42" coveredstatements="29" conditionals="18" coveredconditionals="13" methods="22" coveredmethods="13" elements="82" coveredelements="55" complexity="0" loc="42" ncloc="42" packages="5" files="11" classes="11"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\index.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="19" coveredstatements="16" conditionals="8" coveredconditionals="6" methods="9" coveredmethods="6"/>
+      <file name="Tree.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\components\Tree.js">
+        <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="TreeItem.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\components\TreeItem.js">
+        <metrics statements="11" coveredstatements="9" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="3"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.redux">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="3"/>
+      <file name="actionTypes.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\redux\actionTypes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+      </file>
+      <file name="actions.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\redux\actions.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="selectors.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\redux\selectors.js">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="store.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\redux\store.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.redux.reducers">
+      <metrics statements="5" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\redux\reducers\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="treeItem.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\redux\reducers\treeItem.js">
+        <metrics statements="5" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="18" type="cond" truecount="1" falsecount="2"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="8" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="3"/>
+      <file name="api.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\utils\api.js">
+        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="test-utils.js" path="C:\Users\vitor.souza\Documents\React\tree-items\src\utils\test-utils.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
